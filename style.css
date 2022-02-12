@@ -1,0 +1,16 @@
+body {
+    font-family: Arial; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+}
+
+.bordered circle {
+    stroke-width: 2px;
+}
