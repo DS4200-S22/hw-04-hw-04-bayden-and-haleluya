@@ -1,16 +1,21 @@
 body {
-    font-family: Arial; 
+  font-family: Arial;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .circles {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .bordered circle {
-    stroke-width: 2px;
+  stroke-width: 2px;
+}
+
+text {
+  z-index: -1;
+  position: relative;
 }
